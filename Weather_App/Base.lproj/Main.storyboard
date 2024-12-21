@@ -55,7 +55,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jat-HN-93Z" userLabel="Temp_Name&amp;image SV">
                                                 <rect key="frame" x="0.0" y="0.0" width="296.33333333333331" height="46"/>
                                                 <subviews>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="temp" translatesAutoresizingMaskIntoConstraints="NO" id="la5-LX-SRs">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="temp_image" translatesAutoresizingMaskIntoConstraints="NO" id="la5-LX-SRs">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="46"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="46" id="eIE-gT-bJc"/>
@@ -240,7 +240,7 @@
     </scenes>
     <resources>
         <image name="humidity" width="512" height="512"/>
-        <image name="temp" width="512" height="512"/>
+        <image name="temp_image" width="512" height="512"/>
         <image name="windy" width="512" height="512"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

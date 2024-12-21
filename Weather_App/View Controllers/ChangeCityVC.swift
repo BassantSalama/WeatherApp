@@ -11,10 +11,10 @@ class ChangeCityVC: UIViewController {
  
     
     var citiesArray = [City(name: "Alx", id: 361058),
-                       City(name: "Cairo", id: 360630),
                        City(name: "Aswan", id: 359792),
-                       City(name: "Ismailia", id: 361055),
+                       City(name: "Cairo", id: 360630),
                        City(name: "Hurghada", id: 361291),
+                       City(name: "Ismailia", id: 361055),
                        City(name: "Luxor", id: 360502),
                        City(name: "Sohag", id: 359792)
     
